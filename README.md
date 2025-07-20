@@ -3,7 +3,7 @@
 Hello!!! 
 I'm Alex. a final-year Software Engineering student at Complutense University of Madrid. This is my last academic year, andd I'm building this portfolio website to showcase my most important qualities, skills and educational background. 
 
-I will try to be a minimalist and modern website witch atracs to employee companies and help to create a similar portfolio to other students. 
+I will try to be a minimalist and modern website witch atracs to potential employers and serves as reference for other students looking to build their own portfolios. 
 
 ## 📂 Contents
 - [Design](#item1)
