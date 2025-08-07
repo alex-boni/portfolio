@@ -1,7 +1,7 @@
 # My Portfolio
 
 Hello!!! 
-I'm Alex. a final-year Software Engineering student at Complutense University of Madrid. This is my last academic year, andd I'm building this portfolio website to showcase my most important qualities, skills and educational background. 
+I'm Alex. I'm a final-year Software Engineering student at Complutense University of Madrid. This is my last academic year, and I'm building this portfolio website to showcase my most important qualities, skills and educational background. 
 
 I will try to be a minimalist and modern website witch atracs to potential employers and serves as reference for other students looking to build their own portfolios. 
 
@@ -53,12 +53,16 @@ I will try to be a minimalist and modern website witch atracs to potential emplo
    ```bash
    npm install
    ```
-4. 📦Update scripts of package.json:
+4. 📦Install Tailwind CSS 4:
+   ```bash
+   npm install tailwindcss @tailwindcss/vite
+   ```
+5. 📦Update scripts of package.json:
    ```bash
    npm pkg set scripts.lint="eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0" 
    npm pkg set scripts.preview="vite build && vite preview --host"
    ```
-5. ▶️Run the app:
+6. ▶️Run the app:
    ```bash
    npm run preview
    ```
