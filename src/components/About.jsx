@@ -1,9 +1,9 @@
 import alex from "../assets/alex-gafas-normal-sf.png";
 function About() {
   return (
-    <>
-      <h1 className="mt-4">Ey Devs! Soy Alex!</h1>
-      <div className="flex ml-50 mr-50 items-center text-left gap-4">
+    <section id="about" className="pt-12 px-12 lg:px-24 md:px-16">
+      <h1 className="mt-4 font-bold">Ey Devs! Soy Alex!</h1>
+      <div className="flex flex-col lg:flex-row  items-center text-left gap-4 ">
         <img
           src={alex}
           alt="alex"
@@ -30,7 +30,7 @@ function About() {
           portfolio.
         </p>
       </div>
-    </>
+    </section>
   );
 }
 export default About;
