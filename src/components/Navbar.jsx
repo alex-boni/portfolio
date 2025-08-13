@@ -16,7 +16,7 @@ export default function Navbar() {
     // backdrop-blur: desenfoque del fondo detrás del elemento
     // px-4: padding horizontal de 1rem
     // py-1: padding vertical de 0.25rem
-    <menu className="fixed top-0 right-0 left-0 mx-auto md:mt-4 md:w-fit md:rounded-full  bg-gray-800/70 backdrop-blur px-4 py-1">
+    <menu className="fixed z-50 top-0 right-0 left-0 mx-auto md:mt-4 md:w-fit md:rounded-full  bg-gray-800/70 backdrop-blur px-4 py-1">
       {/* flex: usa flexbox para disposición horizontal
           items-center: centra verticalmente los elementos
           gap-6: separación horizontal entre hijos */}
