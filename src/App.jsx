@@ -18,9 +18,9 @@ function App() {
         <About/>
         <Projects />
         <Education />
-        <Certificates />
         <Experience />
-        <div className="mt-50 mb-20">
+        <Certificates />
+        <div className="mb-20">
           <h1 className="text-3xl font-bold text-blue-500">
             Próximamente Disponible...
           </h1>

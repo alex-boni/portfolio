@@ -40,8 +40,8 @@ export default function Navbar() {
           <li><a href="#about">Sobre mí</a></li>
           <li><a href="#projects">Proyectos</a></li>
           <li><a href="#education">Educación</a></li>
-          <li><a href="#certificates">Certificaciones</a></li>
           <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#certificates">Certificaciones</a></li>
         </ul>
 
         {/* ml-auto: empuja el botón hacia el extremo derecho
@@ -100,8 +100,8 @@ export default function Navbar() {
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#about" onClick={() => setOpen(false)}>Sobre mí</a></li>
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#projects" onClick={() => setOpen(false)}>Proyectos</a></li>
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#education" onClick={() => setOpen(false)}>Educación</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#certificates" onClick={() => setOpen(false)}>Certificaciones</a></li>
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#experience" onClick={() => setOpen(false)}>Experiencia</a></li>
+          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#certificates" onClick={() => setOpen(false)}>Certificaciones</a></li>
         </ul>
       </div>
     </menu>
