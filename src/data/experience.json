@@ -1,0 +1,36 @@
+[
+    {
+        "id": "1",
+        "role": "Técnico Administrativo",
+        "company": "Transportes Bonilla",
+        "start": "2021-07",
+        "end": "present",
+        "location": "Madrid, España",
+        "summary": "Gestión administrativa-contable y Logística.",
+        "achievements": [
+            "Desarrollo de informes analíticos para la toma de decisiones.",
+            "Gestión de la documentación y trámites administrativos.",
+            "Gestión de pagos y cobros.",
+            "Gestión de inventarios.",
+            "Control de costes y presupuestos.",
+            "Control del cumplimiento regulación Transporte de Mercancías por Carretera.",
+            "Optimización de procesos logísticos."
+        ]
+    },
+    {
+        "id": "2",
+        "role": "Técnico Administrativo",
+        "company": "Tayre - Maseratti",
+        "start": "2020-06",
+        "end": "2021-01",
+        "location": "Madrid, España",
+        "summary": "Gestión administrativa.",
+        "achievements": [
+            "Gestión de la documentación y trámites administrativos.",
+            "Atención al cliente y gestión de incidencias.",
+            "Gestión de proveedores.",
+            "Elaboración de informes y análisis de ventas.",
+            "Coordinación con otros departamentos como ventas, postventa y taller."
+        ]
+    }
+]
