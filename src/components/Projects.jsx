@@ -13,7 +13,7 @@ function Projects() {
         {/* Tarjeta con carrusel */}
         <a
           href="https://github.com/alex-boni/portfolio"
-          className="flex flex-col w-100 md:w-150 lg:w-150 border rounded-lg shadow-sm md:flex-row md:max-w-xl border-gray-800 hover:bg-gray-700"
+          className="flex flex-col w-100 md:w-150 lg:w-150 border rounded-lg shadow-sm md:flex-row md:max-w-xl border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
         >
           <Carousel
             images={proyecto1Imgs}
@@ -35,7 +35,7 @@ function Projects() {
         </a>
         <a
           href="https://github.com/alex-boni/portfolio"
-          className="flex flex-col w-100 md:w-150 lg:w-150 border rounded-lg shadow-sm md:flex-row md:max-w-xl border-gray-800 hover:bg-gray-700"
+          className="flex flex-col w-100 md:w-150 lg:w-150 border rounded-lg shadow-sm md:flex-row md:max-w-xl border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
         >
           <Carousel
             images={proyecto1Imgs}
@@ -57,7 +57,7 @@ function Projects() {
         </a>
         <a
           href="https://github.com/alex-boni/portfolio"
-          className="flex flex-col w-100 md:w-150 lg:w-150 border rounded-lg shadow-sm md:flex-row md:max-w-xl border-gray-800 hover:bg-gray-700"
+          className="flex flex-col w-100 md:w-150 lg:w-150 border rounded-lg shadow-sm md:flex-row md:max-w-xl border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
         >
           <Carousel
             images={proyecto1Imgs}

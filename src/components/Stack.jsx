@@ -20,8 +20,8 @@ import devOps from '../assets/devOps.jpg'
 
 function Stack() {
   return (
-    <section className=' px-4 py-8 lg:py-0 lg:px-0 items-center '>
-        <h3 className='text-2xl font-bold text-center'>Stack</h3>
+    <section id='stack' className=' px-0 py-8 lg:py-0 lg:px-0 items-center '>
+        <h3 className='text-3xl pb-6 lg:pb-0 lg:text-2xl font-bold text-center'>Stack</h3>
         <div className='flex flex-wrap gap-1 justify-center'>
             <img className='object-cover w-20 rounded-2xl mask-x-from-70% mask-y-from-70%' src={javascript} alt="JavaScript" />
             <img className='object-cover w-20 rounded-2xl mask-x-from-70% mask-y-from-70%' src={node} alt="Node.js" />

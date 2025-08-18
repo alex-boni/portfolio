@@ -11,7 +11,7 @@ function About() {
             src={alex}
             alt="alex"
             
-            className="object-cover w-70 -my-5 lg:w-300 mask-radial-at-top mask-radial-from-60% mask-b-from-70% mask-b-to-95%"
+            className="object-cover w-70 -my-5 lg:w-300 mask-radial-at-center mask-radial-from-60% lg:mask-radial-from-40% mask-b-from-70% mask-b-to-95%"
           />
         <SocialNetworks />
         </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import darkWelcome from "../assets/logo-sf.png";
+import darkWelcome from "../assets/ab-sf.png";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -27,7 +27,7 @@ export default function Navbar() {
         <a href="/" className="flex items-center gap-2">
           {/* h-8: altura de 2rem para la imagen
               w-auto: ancho automático manteniendo proporción */}
-          <img src={darkWelcome} alt="Welcome" className="h-8 w-auto" />
+          <img src={darkWelcome} alt="Welcome" className="h-8 w-auto object-cover" />
           {/* sr-only: clase de accesibilidad que oculta visualmente pero lo deja para lectores de pantalla */}
           <span className="sr-only">Inicio</span>
         </a>

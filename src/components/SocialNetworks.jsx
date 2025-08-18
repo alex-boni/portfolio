@@ -1,7 +1,7 @@
 function SocialNetworks() {
   return (
     <div className="flex flex-row gap-4 justify-center items-center">
-      <a href="https://github.com/alex-boni" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <a className="z-10" href="https://github.com/alex-boni" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <svg
           className="w-10 text-white"  // tamaño + color
           aria-hidden="true"
@@ -15,7 +15,7 @@ function SocialNetworks() {
         </svg>
       </a>
 
-      <a href="https://linkedin.com/in/alex-boni/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <a className="z-10" href="https://linkedin.com/in/alex-boni/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
         <svg
           className="w-10 text-blue-600 rounded-2xl"
           viewBox="0 0 24 24"
@@ -27,7 +27,7 @@ function SocialNetworks() {
         </svg>
       </a>
 
-      <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+      <a className="z-10" href="https://wa.me/34684119400" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
         <svg
           className="w-10 text-white bg-green-500 rounded-2xl"
           viewBox="0 0 40 40"

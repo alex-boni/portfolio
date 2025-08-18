@@ -25,7 +25,7 @@ function ItemCard({ metaTop, title, subtitle, description, bullets }) {
         {Array.isArray(bullets) && bullets.length > 0 && (
           <ul className="mt-3 space-y-2">
             {bullets.map((b, i) => (
-              <li key={i} className="text-sm text-white/75 flex gap-2">
+              <li key={i} className="text-sm text-white/75 flex text-start gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-400/80" />
                 <span>{b}</span>
               </li>
