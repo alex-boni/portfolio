@@ -40,11 +40,11 @@ export default function Carousel({
         style={{ transform: `translateX(-${index * 100}%)` }}
       >
         {images.map((src, i) => (
-          <div key={i} className="shrink-0 w-full aspect-[10/9] relative">
+          <div key={i} className="shrink-0 w-full aspect-[10/9] relative ">
             <img
               src={src}
               alt={`${alt} ${i + 1}`}
-              className="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute block w-full h-full object-cover scale-100 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               loading="lazy"
             />
           </div>
