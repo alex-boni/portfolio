@@ -32,7 +32,7 @@ export default function Carousel({
   if (!total) return null;
 
   return (
-    <div className={`relative overflow-hidden rounded-lg ${className}`}>
+    <div className={`relative overflow-hidden rounded-xl ${className}`}>
       {/* Pista de slides */}
 
       <div
@@ -44,7 +44,7 @@ export default function Carousel({
             <img
               src={src}
               alt={`${alt} ${i + 1}`}
-              className="absolute block w-full h-full object-cover scale-100 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute block w-full h-full  object-contain scale-100 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               loading="lazy"
             />
           </div>

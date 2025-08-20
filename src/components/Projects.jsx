@@ -27,19 +27,19 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-14 px-12">
+    <section id="projects" className="py-14 px-4 lg:px-24 md:px-16">
       <h2 className="pb-8 text-3xl font-bold">Proyectos</h2>
 
-      <div className="flex flex-col gap-8 place-items-center">
+      <div className="flex flex-col gap-8">
         {/* Tarjeta con carrusel */}
         <a
           href="https://github.com/alex-boni/Wei-Little"
-          className="flex flex-col lg:flex-row lg:max-h-130 w-full border rounded-lg shadow-sm   border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
+          className="flex flex-col lg:flex-row h-full  w-full items-center justify-center px-2 py-2 rounded-xl bg-white/5 backdrop-blur ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20"
         >
           <Carousel
             images={proyecto1Imgs}
             alt="Proyecto 1"
-            className="w-full lg:w-150 max-h-100 lg:h-auto  rounded-b-none lg:rounded-none lg:rounded-s-lg"
+            className="w-full lg:w-150 max-h-100 lg:h-full"
           />
 
           <div className="flex flex-col p-4 leading-normal w-full text-justify font-light text-gray-300">
@@ -82,13 +82,13 @@ function Projects() {
         </a>
 
         <a
-          href="https://github.com/alex-boni/Wei-Little"
-          className="flex flex-col lg:flex-row lg:max-h-130 w-full border rounded-lg shadow-sm   border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
+          href="https://github.com/alex-boni/ParkIT"
+          className="flex flex-col lg:flex-row h-full  w-full items-center justify-center px-2 py-2 rounded-xl bg-white/5 backdrop-blur ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20"
         >
           <Carousel
             images={parkitImgs}
             alt="Proyecto 1"
-            className="w-full lg:w-150 max-h-100 lg:h-auto  rounded-b-none lg:rounded-none lg:rounded-s-lg"
+            className="w-full lg:w-150 max-h-100 lg:h-auto "
           />
 
           <div className="flex flex-col p-4 leading-normal w-full text-justify font-light text-gray-300">
