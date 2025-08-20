@@ -42,6 +42,8 @@ export default function Navbar() {
           <li><a href="#education">Educación</a></li>
           <li><a href="#experience">Experiencia</a></li>
           <li><a href="#certificates">Certificaciones</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="/contact">Contacto</a></li>
         </ul>
 
         {/* ml-auto: empuja el botón hacia el extremo derecho
@@ -102,6 +104,8 @@ export default function Navbar() {
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#education" onClick={() => setOpen(false)}>Educación</a></li>
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#experience" onClick={() => setOpen(false)}>Experiencia</a></li>
           <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#certificates" onClick={() => setOpen(false)}>Certificaciones</a></li>
+          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#skills" onClick={() => setOpen(false)}>Skills</a></li>
+          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="/contact" onClick={() => setOpen(false)}>🫱​Contáctame🫲​</a></li>
         </ul>
       </div>
     </menu>

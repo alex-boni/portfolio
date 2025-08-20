@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
+import Skills from "./components/Skills";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
         <Education />
         <Experience />
         <Certificates />
+        <Skills />
         <div className="mb-20">
           <h1 className="text-3xl font-bold text-blue-500">
             Próximamente Disponible...

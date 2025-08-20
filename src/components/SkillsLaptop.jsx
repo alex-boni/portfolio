@@ -58,7 +58,7 @@ export default function SkillsLaptop({
   return (
     <section id="skills" className={`py-0  ${isClosed ? "-mt-0" : "-mt-0"}`}>
       <div className="mx-auto max-w-5xl px-4 text-center">
-        <h2 className={`${isOpen ? "text-3xl font-bold " : "hidden absolute"}`}>Stack</h2>
+        <h2 className={`${isOpen ? "text-3xl font-bold " : "hidden absolute"}`}>Skills</h2>
         {/* Contenedor interactivo */}
         <div
           role="button"
