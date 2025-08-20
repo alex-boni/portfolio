@@ -3,17 +3,28 @@ import altaMaquinaP1 from "../assets/alta-maquina.png";
 import alquilarMaquinaP1 from "../assets/alquilar-maquina.png";
 import modeloArcadeP1 from "../assets/modelo-arcade.png";
 import modeloVideojuegosP1 from "../assets/modelo-videojuegos.png";
+import indexParkit from "../assets/index-parkit.png";
+import buscadorParkit from "../assets/buscador-parkit.png";
+import reserveParkit from "../assets/reserve-parkit.png";
+import selectSpotParkit from "../assets/select-spot-parkit.png";
+// import casoUsoParkit from "../assets/caso-uso-parkit.mp4";
 import Carousel from "../components/Carousel";
 
 function Projects() {
-  // Ejemplo: cada proyecto con su array de imágenes
   const proyecto1Imgs = [
     pantallaPrincipalP1,
     altaMaquinaP1,
     alquilarMaquinaP1,
     modeloArcadeP1,
     modeloVideojuegosP1,
-  ]; // reemplaza por tus rutas reales
+  ]; 
+  const parkitImgs = [
+    indexParkit,
+    buscadorParkit,
+    reserveParkit,
+    selectSpotParkit,
+    // casoUsoParkit,
+  ];
 
   return (
     <section id="projects" className="py-14 px-12">
@@ -75,7 +86,7 @@ function Projects() {
           className="flex flex-col lg:flex-row lg:max-h-130 w-full border rounded-lg shadow-sm   border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
         >
           <Carousel
-            images={proyecto1Imgs}
+            images={parkitImgs}
             alt="Proyecto 1"
             className="w-full lg:w-150 max-h-100 lg:h-auto  rounded-b-none lg:rounded-none lg:rounded-s-lg"
           />
