@@ -40,7 +40,7 @@ export default function Carousel({
         style={{ transform: `translateX(-${index * 100}%)` }}
       >
         {images.map((src, i) => (
-          <div key={i} className="shrink-0 w-full aspect-[10/9] relative ">
+          <div key={i} className="shrink-0 w-full lg:aspect-square aspect-video relative  ">
             <img
               src={src}
               alt={`${alt} ${i + 1}`}

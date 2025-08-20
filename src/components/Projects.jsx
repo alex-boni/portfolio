@@ -19,60 +19,104 @@ function Projects() {
     <section id="projects" className="py-14 px-12">
       <h2 className="pb-8 text-3xl font-bold">Proyectos</h2>
 
-      <div className="grid lg:grid-cols-2 gap-4 place-items-center">
+      <div className="flex flex-col gap-8 place-items-center">
         {/* Tarjeta con carrusel */}
         <a
           href="https://github.com/alex-boni/Wei-Little"
-          className="flex flex-col w-full border rounded-lg shadow-sm md:flex-row  border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
+          className="flex flex-col lg:flex-row lg:max-h-130 w-full border rounded-lg shadow-sm   border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
         >
           <Carousel
             images={proyecto1Imgs}
             alt="Proyecto 1"
-            className="w-full  h-auto md:rounded-none md:rounded-s-lg"
+            className="w-full lg:w-150 max-h-100 lg:h-auto  rounded-b-none lg:rounded-none lg:rounded-s-lg"
           />
 
-          <div className="flex flex-col p-4 leading-normal md:w-80 lg:w-full place-items-center ">
-            <h3 className="mb-2 text-2xl font-bold tracking-tight text-white">
+          <div className="flex flex-col p-4 leading-normal w-full text-justify font-light text-gray-300">
+            <h3 className="mb-1 text-2xl font-bold tracking-tight text-white text-center">
               Wei Little
             </h3>
-            <p className="mb-3 font-light text-gray-400 text-start">
-              Es una aplicación de escritorio desarrollada en Java que simula la
-              gestión de una tienda de videojuegos y alquiler de máquinas
-              recreativas. Se centró en aplicar prácticas completas de modelado
-              y desarrollo de software, incluyendo: Arquitectura de software
-              (DAO, JPA, MVC) Modelado con IBM RSAD (diagramas entidad-relación,
-              de clases, casos de uso, actividades y secuencia) Separación clara
-              por capas: presentación, negocio e integración
+            <p className="mb-3 ">
+              Wei-Little es una aplicación de escritorio desarrollada en Java
+              que simula la gestión de una tienda de videojuegos y un servicio
+              de alquiler de máquinas recreativas. Este proyecto académico se
+              centró en aplicar prácticas completas de modelado y desarrollo de
+              software, desde la planificación hasta el producto final,
+              incluyendo: Especificación de requisitos (SRS) Arquitectura de
+              software (DAO, JPA, MVC) Modelado con IBM RSAD (diagramas
+              entidad-relación, de clases, casos de uso, actividades y
+              secuencia) Separación clara por capas: presentación, negocio e
+              integración
             </p>
+            <div className="mb-2">
+              <strong className="text-xl font-bold tracking-tight text-white">
+                Soft-skills entrenadas:{" "}
+              </strong>
+              Trabajo en equipo, gestión de proyectos, comunicación efectiva,
+              resolución de problemas, adaptabilidad.
+            </div>
+            <div className="mb-2">
+              <strong className="text-xl font-bold tracking-tight text-white">
+                Hard-skills trabajadas:{" "}
+              </strong>
+              Análisis y diseño de sistemas, programación orientada a objetos,
+              gestión de bases de datos, diseño de interfaces de usuario.
+            </div>
+            <div className="mb-2">
+              <strong className="text-xl font-bold tracking-tight text-white">
+                Tecnologías utilizadas:{" "}
+              </strong>
+              Java, JPL, MySQL, DAO, MVC, IBM RSAD
+            </div>
           </div>
         </a>
+
         <a
           href="https://github.com/alex-boni/Wei-Little"
-          className="flex flex-col w-full border rounded-lg shadow-sm md:flex-row  border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
+          className="flex flex-col lg:flex-row lg:max-h-130 w-full border rounded-lg shadow-sm   border-gray-800 hover:bg-gray-700 transition hover:-translate-y-0.5 hover:shadow-2xl"
         >
           <Carousel
             images={proyecto1Imgs}
             alt="Proyecto 1"
-            className="w-full  h-auto md:rounded-none md:rounded-s-lg"
+            className="w-full lg:w-150 max-h-100 lg:h-auto  rounded-b-none lg:rounded-none lg:rounded-s-lg"
           />
 
-          <div className="flex flex-col p-4 leading-normal md:w-80 lg:w-full place-items-center ">
-            <h3 className="mb-2 text-2xl font-bold tracking-tight text-white">
-              Wei Little
+          <div className="flex flex-col p-4 leading-normal w-full text-justify font-light text-gray-300">
+            <h3 className="mb-1 text-2xl font-bold tracking-tight text-white text-center">
+              ParkIT
             </h3>
-            <p className="mb-3 font-light text-gray-400 text-start">
-              Es una aplicación de escritorio desarrollada en Java que simula la
-              gestión de una tienda de videojuegos y alquiler de máquinas
-              recreativas. Se centró en aplicar prácticas completas de modelado
-              y desarrollo de software, incluyendo: Arquitectura de software
-              (DAO, JPA, MVC) Modelado con IBM RSAD (diagramas entidad-relación,
-              de clases, casos de uso, actividades y secuencia) Separación clara
-              por capas: presentación, negocio e integración
+            <p className="mb-3 ">
+              ParkIT es una aplicación web que ayuda a los usuarios a encontrar
+              plazas de aparcamiento libres en tiempo real, mostrándolas por
+              zonas en un mapa interactivo y guiándolos hasta ellas. La
+              aplicación cuenta con varias vistas que dependiendo de si el
+              usuario es particular o empresa tiene diferentes permisos y
+              funcionalidades (El usuario administrador puede acceder a todas
+              las vistas) para mejorar la navegación y organización
             </p>
+            <div className="mb-2">
+              <strong className="text-xl font-bold tracking-tight text-white">
+                Soft-skills entrenadas:{" "}
+              </strong>
+              Trabajo en equipo, gestión de proyectos, comunicación efectiva,
+              resolución de problemas, adaptabilidad.
+            </div>
+            <div className="mb-2">
+              <strong className="text-xl font-bold tracking-tight text-white">
+                Hard-skills trabajadas:{" "}
+              </strong>
+              Análisis y diseño de sistemas, programación orientada a objetos,
+              gestión de bases de datos, diseño de interfaces de usuario.
+            </div>
+            <div className="mb-2">
+              <strong className="text-xl font-bold tracking-tight text-white">
+                Frontend:{" "}
+              </strong>
+              <p>HTML, CSS, Bootstrap 4, Thymeleaf JavaScript</p>
+              <strong className="text-xl font-bold tracking-tight text-white">Backend: </strong>
+              <p>Spring-boot, Websockets, H2</p>
+            </div>
           </div>
         </a>
-        
-
       </div>
     </section>
   );
