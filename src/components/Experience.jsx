@@ -25,7 +25,7 @@ export default function Experience() {
   }));
 
   return (
-    <section id="experience" className="pt-12 px-4 py-14 lg:px-24 md:px-16">
+    <section id="experience" className="px-4 py-14 lg:px-24 md:px-16">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold text-white">Experiencia</h2>
         <div className="mt-8">

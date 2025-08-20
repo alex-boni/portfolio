@@ -25,7 +25,7 @@ export default function Education() {
   }));
 
   return (
-    <section id="education" className="pt-12 py-14 px-4 lg:px-24 md:px-16">
+    <section id="education" className="py-14 px-4 lg:px-24 md:px-16">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold text-white">Educación</h2>
         <div className="mt-8">
