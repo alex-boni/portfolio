@@ -30,11 +30,11 @@ function Projects() {
     <section id="projects" className="py-14 px-4 lg:px-24 md:px-16">
       <h2 className="pb-8 text-3xl font-bold">Proyectos</h2>
 
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-12">
         {/* Tarjeta con carrusel */}
         <a
           href="https://github.com/alex-boni/Wei-Little"
-          className="flex flex-col lg:flex-row h-full  w-full items-center justify-center px-2 py-2 rounded-xl bg-white/5 backdrop-blur ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20"
+          className="flex flex-col lg:flex-row h-full  w-full items-center justify-center px-2 py-2 rounded-xl bg-white/5 ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20"
         >
           <Carousel
             images={proyecto1Imgs}
@@ -83,7 +83,7 @@ function Projects() {
 
         <a
           href="https://github.com/alex-boni/ParkIT"
-          className="flex flex-col lg:flex-row h-full  w-full items-center justify-center px-2 py-2 rounded-xl bg-white/5 backdrop-blur ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20"
+          className="flex flex-col lg:flex-row h-full  w-full items-center justify-center px-2 py-2 rounded-xl bg-white/5 ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20"
         >
           <Carousel
             images={parkitImgs}

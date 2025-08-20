@@ -12,7 +12,7 @@ function NodeDot() {
 /* Tarjeta */
 function ItemCard({ metaTop, title, subtitle, description, bullets }) {
   return (
-    <article className="group relative w-full rounded-xl bg-white/5 backdrop-blur ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20">
+    <article className="group relative w-full rounded-xl bg-white/5 ring-1 ring-white/10 shadow-lg transition hover:-translate-y-0.5 hover:shadow-2xl hover:ring-white/20">
       <div className="relative p-4 md:p-5">
         {metaTop && (
           <div className="mb-2 absolute items-center gap-2 rounded-full bg-cyan-400/10 px-3 py-1 text-xs font-medium text-cyan-300 ring-1 ring-cyan-400/20">
