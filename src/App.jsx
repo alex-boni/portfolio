@@ -1,28 +1,27 @@
-import "./App.css";
+import { Routes, Route, Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import About from "./components/About";
-import Projects from "./components/Projects";
-import Education from "./components/Education";
-import Certificates from "./components/Certificates";
-import Experience from "./components/Experience";
-import Skills from "./components/Skills";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
-function App() {
+function Layout() {
   return (
     <>
-      <div>
-        <Navbar/>
-        <About/>
-        <Projects />
-        <Education />
-        <Experience />
-        <Certificates />
-        <Skills />
-      </div>
-      <Footer></Footer>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        {/* Add more routes as needed */}
+      </Route>
+    </Routes>
+  );
+}

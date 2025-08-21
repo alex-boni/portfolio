@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import darkWelcome from "../assets/ab-sf.png";
 
 export default function Navbar() {
@@ -24,26 +25,26 @@ export default function Navbar() {
         {/* flex: disposición horizontal para logo e icono
             items-center: alinea verticalmente
             gap-2: separación entre logo y texto */}
-        <a href="/" className="flex items-center gap-2">
+        <Link to="/?s=about" className="flex items-center gap-2">
           {/* h-8: altura de 2rem para la imagen
               w-auto: ancho automático manteniendo proporción */}
           <img src={darkWelcome} alt="Welcome" className="h-8 w-auto object-cover" />
           {/* sr-only: clase de accesibilidad que oculta visualmente pero lo deja para lectores de pantalla */}
           <span className="sr-only">Inicio</span>
-        </a>
+        </Link>
 
         {/* hidden: oculta el menú por defecto
             items-center: centra verticalmente los elementos
             gap-6: separación horizontal
             md:flex: muestra el menú como flex a partir del breakpoint md */}
         <ul className="hidden items-center gap-6 md:flex">
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#projects">Proyectos</a></li>
-          <li><a href="#education">Educación</a></li>
-          <li><a href="#experience">Experiencia</a></li>
-          <li><a href="#certificates">Certificaciones</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="/contact">Contacto</a></li>
+          <li><Link to="/?s=about">Sobre mí</Link></li>
+          <li><Link to="/?s=projects">Proyectos</Link></li>
+          <li><Link to="/?s=education">Educación</Link></li>
+          <li><Link to="/?s=experience">Experiencia</Link></li>
+          <li><Link to="/?s=certificates">Certificaciones</Link></li>
+          <li><Link to="/?s=skills">Skills</Link></li>
+          <li><Link to="/contact">Contacto</Link></li>
         </ul>
 
         {/* ml-auto: empuja el botón hacia el extremo derecho
@@ -94,19 +95,21 @@ export default function Navbar() {
             bg-gray-800/70: fondo gris oscuro con opacidad
             px-4: padding horizontal 1rem
             py-3: padding vertical 0.75rem */}
+        {open && (
         <ul className="space-y-1 rounded-lg bg-gray-800/70 px-4 py-1">
           {/* block: display en bloque
               rounded: esquinas redondeadas
               px-3 py-2: padding
               hover:bg-black/5: fondo sutil al pasar el ratón */}
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#about" onClick={() => setOpen(false)}>Sobre mí</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#projects" onClick={() => setOpen(false)}>Proyectos</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#education" onClick={() => setOpen(false)}>Educación</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#experience" onClick={() => setOpen(false)}>Experiencia</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#certificates" onClick={() => setOpen(false)}>Certificaciones</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="#skills" onClick={() => setOpen(false)}>Skills</a></li>
-          <li><a className="block rounded px-3 py-2 hover:bg-black/5 " href="/contact" onClick={() => setOpen(false)}>🫱​Contáctame🫲​</a></li>
+          <li><Link to="/?s=about" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Sobre mí</Link></li>
+          <li><Link to="/?s=projects" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Proyectos</Link></li>
+          <li><Link to="/?s=education" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Educación</Link></li>
+          <li><Link to="/?s=experience" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Experiencia</Link></li>
+          <li><Link to="/?s=certificates" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Certificaciones</Link></li>
+          <li><Link to="/?s=skills" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Skills</Link></li>
+          <li><Link to="/contact" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>🫱​Contáctame🫲​</Link></li>
         </ul>
+      )}
       </div>
     </menu>
   );
