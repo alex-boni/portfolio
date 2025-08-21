@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "skill": "Liderazgo en proyectos pequeños",
+    "impacto": "Durante el desarrollo de proyectos académicos y de mi portfolio, como ParkIT.",
+    "accion": "Coordiné a mis compañeros definiendo responsabilidades claras, resolviendo bloqueos técnicos y asegurando que todos avanzaran en paralelo.",
+    "resultado": "Finalizamos los proyectos con buena calidad, dentro del tiempo previsto y con una demo funcional que recibió muy buena valoración."
+  },
+  {
+    "id": 2,
+    "skill": "Trabajo en equipo",
+    "impacto": "En proyectos colaborativos como ParkIT y en repositorios compartidos en GitHub.",
+    "accion": "Colaboré activamente en la integración entre backend y frontend, aportando ideas en reuniones y apoyando a otros compañeros en la lógica de JPA y pruebas.",
+    "resultado": "Logramos una aplicación totalmente funcional que integraba mapas en tiempo real y un backend estable."
+  },
+  {
+    "id": 3,
+    "skill": "Resolución de problemas",
+    "impacto": "Durante el desarrollo de mi portfolio y el buscador de parking ParkIT.",
+    "accion": "Detecté problemas técnicos como la comunicación en tiempo real entre usuarios y empresas e implementé WebSockets con STOMP para solucionarlos.",
+    "resultado": "Mejoré la experiencia de usuario ofreciendo notificaciones instantáneas y un chat en tiempo real."
+  },
+  {
+    "id": 4,
+    "skill": "Adaptabilidad",
+    "impacto": "Al enfrentarme a nuevas tecnologías como React y Tailwind 4.",
+    "accion": "Aprendí de forma autodidacta, aplicando rápidamente los conocimientos a mi portfolio y ajustando diseños y componentes en tiempo real.",
+    "resultado": "Conseguí un portfolio moderno, responsive y optimizado, mostrando capacidad de aprendizaje rápido y eficaz."
+  },
+  {
+    "id": 5,
+    "skill": "Comunicación efectiva",
+    "impacto": "En presentaciones de proyectos académicos y en mi experiencia profesional en Transportes Bonilla.",
+    "accion": "Expliqué de manera clara avances técnicos y logísticos a compañeros no técnicos y a responsables de área.",
+    "resultado": "Facilité la toma de decisiones y aseguré que todos los miembros entendieran los objetivos y plazos."
+  },
+  {
+    "id": 6,
+    "skill": "Gestión del tiempo",
+    "impacto": "Compatibilizando estudios universitarios, desarrollo de proyectos personales y experiencia laboral.",
+    "accion": "Planifiqué tareas semanales con prioridades claras y uso de herramientas como GitHub Projects y Trello.",
+    "resultado": "Entregué proyectos dentro de los plazos, manteniendo un equilibrio entre calidad y cumplimiento."
+  },
+  {
+    "id": 7,
+    "skill": "Pensamiento crítico",
+    "impacto": "Al diseñar la arquitectura del backend de ParkIT.",
+    "accion": "Analicé distintas opciones de integración (REST, WebSockets, colas de mensajería) valorando pros y contras.",
+    "resultado": "Seleccioné la solución más adecuada, garantizando escalabilidad y buena experiencia de usuario."
+  },
+  {
+    "id": 8,
+    "skill": "Iniciativa y proactividad",
+    "impacto": "En el desarrollo de mi portfolio personal.",
+    "accion": "No me limité a mostrar proyectos básicos, sino que incorporé animaciones, carousels, laptop interactiva y detalles de UI para diferenciarlo.",
+    "resultado": "Creé un portfolio llamativo que refleja tanto mis habilidades técnicas como mi creatividad."
+  }
+]
