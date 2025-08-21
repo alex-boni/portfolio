@@ -3,7 +3,7 @@ import softSkills from '../data/soft-skills.json';
 
 function SoftSkills() {
   return (
-    <section id="soft-skills" className="py-4 px-4 lg:px-24 md:px-16 border-b-1 lg:border-b-0 lg:border-r-1 border-gray-700">
+    <section id="soft-skills" className="py-4 px-4 lg:px-12 md:px-16 border-b-1 lg:border-b-0 lg:border-r-1 border-gray-700">
         <h2 className="pb-8 text-3xl font-bold">Soft-Skills</h2>
         <ul className='mt-3 space-y-2'>
             {softSkills.map((skill, index) =>(

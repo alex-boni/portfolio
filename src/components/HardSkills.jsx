@@ -3,7 +3,7 @@ import hardSkills from '../data/hard-skills.json';
 
 function HardSkills() {
   return (
-    <section id="hard-skills" className="py-4 px-4 lg:px-24 md:px-16">
+    <section id="hard-skills" className="py-4 px-4 lg:px-12 md:px-16">
         <h2 className="pb-8 text-3xl font-bold">Hard-Skills</h2>
         <ul className='mt-3 space-y-2'>
             {hardSkills.map((skill, index) =>(
