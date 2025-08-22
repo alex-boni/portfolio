@@ -45,3 +45,17 @@
 html{
   scroll-behavior: smooth;
 }
+
+/* Visibilidad correcta del desplegable nativo en tema oscuro */
+@layer base {
+  select option {
+    color: #0f172a;
+    background-color: #06acee; 
+  }
+
+  select option:checked,
+  select option:hover {
+    background-color: #e2e8f0;
+    color: #0f172a;
+  }
+}
