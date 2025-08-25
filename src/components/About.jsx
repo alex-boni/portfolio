@@ -4,7 +4,8 @@ import Stack from "./Stack";
 function About() {
   return (
     <section id="about" className="pt-12 px-12 lg:px-24 md:px-16">
-      <h1 className="my-8 font-bold">Ey Devs! Soy Alex!</h1>
+      <h1 className="mt-8 font-bold">Ey Devs! Soy Alex!</h1>
+      <h3 className="mt-2 lg:mb-8 text-white/70">Full-Stack Software Engineer <strong>|</strong> React · Java Spring Boot · Node.js</h3>
       <div className="flex flex-col lg:flex-row  items-center text-left gap-4 ">
         <div>
           <img
