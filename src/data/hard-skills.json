@@ -1,51 +1,107 @@
 [
   {
     "id": 1,
-    "skill": "React.js + Tailwind",
-    "impacto": "En el desarrollo de mi portfolio y proyectos universitarios.",
-    "accion": "Construí interfaces modernas, responsive y accesibles con React y Tailwind.",
+    "skill": "React.js + Tailwind CSS",
+    "impacto": "En el desarrollo de mi portfolio.",
+    "accion": "Construí interfaces modernas, responsive y accesibles con React y Tailwind CSS.",
     "resultado": "Mejoré la experiencia del usuario final y reforcé la presentación de mis proyectos."
   },
   {
     "id": 2,
-    "skill": "Node.js + Express",
-    "impacto": "En proyectos académicos y personales de backend.",
-    "accion": "Desarrollé APIs RESTful con autenticación JWT y middleware personalizados.",
-    "resultado": "Logré servicios seguros y escalables, integrados con frontend en tiempo real."
+    "skill": "Java + Spring Boot",
+    "impacto": "En proyectos académicos (ej. ParkIT, Métodos de Clasificación).",
+    "accion": "Desarrollé microservicios con Spring Boot, seguridad con Spring Security y acceso a datos con JPA.",
+    "resultado": "Construí aplicaciones robustas, seguras y mantenibles."
   },
   {
     "id": 3,
-    "skill": "PostgreSQL y MongoDB",
-    "impacto": "En proyectos universitarios y personales.",
-    "accion": "Diseñé modelos de datos eficientes y apliqué consultas optimizadas.",
-    "resultado": "Reduje tiempos de respuesta y aseguré persistencia confiable para aplicaciones web."
+    "skill": "Node.js + Express",
+    "impacto": "En proyectos académicos de backend (ej. Event-Planner).",
+    "accion": "Desarrollé APIs RESTful con autenticación JWT y middleware personalizados.",
+    "resultado": "Implementé servicios seguros y escalables, integrados con frontend en tiempo real."
   },
   {
     "id": 4,
-    "skill": "Docker",
-    "impacto": "En despliegues de proyectos personales.",
-    "accion": "Creé contenedores para backend y base de datos.",
-    "resultado": "Aseguré portabilidad y facilidad de despliegue en distintos entornos."
+    "skill": "Bases de datos SQL y NoSQL",
+    "impacto": "En proyectos como Wei-Little (MySQL), ParkIT (H2) y otros proyectos académicos (MongoDB).",
+    "accion": "Diseñé esquemas y gestioné datos con JPA.",
+    "resultado": "Mejoré el rendimiento y la integridad de los datos en aplicaciones reales."
   },
   {
     "id": 5,
-    "skill": "Git y GitHub",
-    "impacto": "En proyectos colaborativos como Wei-Little (11 contribuidores).",
-    "accion": "Gestioné ramas, pull requests y revisiones de código.",
-    "resultado": "Mantuvimos un flujo de trabajo ordenado y colaborativo, reduciendo conflictos."
+    "skill": "Docker",
+    "impacto": "En despliegues de proyectos personales y académicos como ParkIT.",
+    "accion": "Creé o usé contenedores para backend y bases de datos.",
+    "resultado": "Aseguré portabilidad y simplifiqué el despliegue en distintos entornos con scripts en Python."
   },
   {
     "id": 6,
-    "skill": "Testing (Jest y Cypress)",
-    "impacto": "En pruebas E2E de mi aplicación ParkIT.",
-    "accion": "Automatizé casos de login, búsqueda y reserva de parking.",
+    "skill": "Testing (Karate, JUnit 5)",
+    "impacto": "En pruebas de mi aplicación ParkIT.",
+    "accion": "Automaticé casos de login, búsqueda y reserva de parking.",
     "resultado": "Aumenté la confiabilidad del sistema y detecté errores antes del despliegue."
   },
   {
     "id": 7,
+    "skill": "Git y GitHub",
+    "impacto": "En proyectos colaborativos como Wei-Little (12 contribuidores).",
+    "accion": "Gestioné ramas, errores de integración y revisiones de código.",
+    "resultado": "Mantuvimos un flujo de trabajo ordenado y colaborativo, reduciendo conflictos."
+  },
+  {
+    "id": 8,
+    "skill": "HTML5, CSS3 y JavaScript (ES6+)",
+    "impacto": "En el desarrollo de interfaces web para mis proyectos.",
+    "accion": "Implementé diseños responsivos y dinámicos con HTML, CSS y JavaScript moderno.",
+    "resultado": "Mejoré la usabilidad y estética de las aplicaciones web."
+  },
+  {
+    "id": 9,
+    "skill": "Diseño de software (SOLID, patrones, arquitectura)",
+    "impacto": "Al diseñar arquitecturas para proyectos como Wei-Little y ParkIT.",
+    "accion": "Apliqué principios SOLID, patrones de diseño y buenas prácticas de codificación.",
+    "resultado": "Creé sistemas modulares, escalables y fáciles de mantener."
+  },
+  {
+    "id": 10,
+    "skill": "C++ (Algoritmia y estructuras de datos)",
+    "impacto": "En prácticas académicas de programación avanzada.",
+    "accion": "Resolví problemas complejos aplicando algoritmos eficientes y estructuras como grafos, árboles y colas de prioridad.",
+    "resultado": "Fortalecí mis bases en optimización y resolución de problemas, aplicables a software de alto rendimiento."
+  },
+  {
+    "id": 11,
+    "skill": "Java (Aplicaciones de escritorio)",
+    "impacto": "En proyectos académicos de modelado y simulación.",
+    "accion": "Desarrollé aplicaciones de escritorio como un simulador de ecosistema, aplicando POO, patrones de diseño y arquitectura en capas.",
+    "resultado": "Logré software funcional, mantenible y alineado con buenas prácticas de ingeniería."
+  },
+  {
+    "id": 12,
+    "skill": "Python (IA generativa)",
+    "impacto": "Durante un curso sobre IA generativa en la Universidad Complutense.",
+    "accion": "Ejecuté y adapté scripts en Google Colab para experimentar con modelos de lenguaje y generación automática de código.",
+    "resultado": "Adquirí experiencia práctica en el uso de Python para prototipado rápido y experimentación con IA."
+  },
+  {
+    "id": 13,
+    "skill": "Matlab (IA aplicada al control)",
+    "impacto": "En una asignatura optativa de Inteligencia Artificial aplicada al control.",
+    "accion": "Realicé laboratorios para controlar un brazo robot entrenando redes neuronales mediante simulaciones en Matlab.",
+    "resultado": "Comprendí el uso práctico de IA en sistemas de control y el impacto de los modelos en entornos físicos."
+  },
+  {
+    "id": 14,
+    "skill": "Terminal y sistemas operativos",
+    "impacto": "En autoformación y en asignaturas de sistemas operativos.",
+    "accion": "Utilicé la terminal Linux para despliegues y gestioné semáforos y cerrojos en programación concurrente.",
+    "resultado": "Mejoré mi eficiencia en entornos de desarrollo y entendí los fundamentos del control de concurrencia."
+  },
+  {
+    "id": 15,
     "skill": "Scrum y Agile",
     "impacto": "Como Scrum Master en proyectos académicos.",
-    "accion": "Facilité ceremonias ágiles y gestioné el backlog con Trello y Jira.",
+    "accion": "Facilité ceremonias ágiles y gestioné el backlog con Jira.",
     "resultado": "El equipo mantuvo el ritmo de entrega y mejoró la coordinación."
   }
 ]

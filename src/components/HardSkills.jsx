@@ -9,7 +9,7 @@ function HardSkills() {
             {hardSkills.map((skill, index) =>(
                 <li className='mt-4 text-sm flex text-start gap-2' key={index}>
                     <span className='mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-cyan-400/80' ></span>
-                    <span><strong>{skill.skill} - </strong> <em>{skill.impacto} {skill.accion}</em></span>
+                    <span><strong>{skill.skill} - </strong> <em>{skill.impacto} {skill.accion} {skill.resultado}</em></span>
                 </li>
             ))}
         </ul>

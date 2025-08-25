@@ -1,0 +1,182 @@
+[
+  {
+    "id": "wei-little",
+    "title": "Wei-Little",
+    "type": "desktop",
+    "timeframe": "2025",
+    "team_size": 12,
+    "role": "Líder del equipo y desarrollador principal",
+    "summary": "Aplicación de escritorio en Java para gestionar una tienda de videojuegos y un servicio de alquiler de máquinas recreativas. Proyecto académico completo desde planificación hasta entrega final con enfoque en arquitectura por capas y modelado UML.",
+    "responsibilities": [
+      "Comunicación con el cliente (profesor) para levantar requisitos y validar entregas",
+      "Planificación, asignación de tareas y seguimiento del equipo",
+      "Coordinación de sprints, revisiones de código e integración",
+      "Implementación de los módulos de gestión de clientes y alquileres"
+    ],
+    "soft_skills": [
+      {
+        "skill": "Liderazgo y gestión de proyectos",
+        "xyz": "Dirigí un equipo de 11 compañeros, coordinando sprints y entregas, lo que permitió cumplir el plan de proyecto y los requisitos del cliente en plazo."
+      },
+      {
+        "skill": "Comunicación efectiva",
+        "xyz": "Realicé reuniones periódicas con el cliente para refinar requisitos y los transformé en tareas técnicas claras para el equipo, reduciendo retrabajos."
+      },
+      {
+        "skill": "Resolución de conflictos",
+        "xyz": "Medié discrepancias de implementación entre módulos y acordé criterios de integración, desbloqueando el flujo de trabajo del equipo."
+      },
+      {
+        "skill": "Trabajo en equipo",
+        "xyz": "Organicé revisiones de código y sesiones de integración continua, mejorando la calidad del producto entregado."
+      }
+    ],
+    "hard_skills": [
+      {
+        "skill": "Análisis y diseño de sistemas",
+        "xyz": "Modelé casos de uso y diagramas UML en IBM RSAD que guiaron la arquitectura en capas del sistema."
+      },
+      {
+        "skill": "POO y patrones de diseño",
+        "xyz": "Implementé clases y patrones en Java para asegurar modularidad y mantenibilidad."
+      },
+      {
+        "skill": "Gestión de bases de datos",
+        "xyz": "Diseñé y normalicé el esquema en MySQL y conecté la capa de datos mediante JPA/DAO, garantizando consistencia e integridad."
+      },
+      {
+        "skill": "UI de escritorio",
+        "xyz": "Desarrollé formularios y flujos en Java Swing priorizando usabilidad y coherencia visual."
+      }
+    ],
+    "technologies": {
+      "general": ["Java", "JPA", "DAO", "MVC", "MySQL", "IBM RSAD", "UML", "Java Swing"]
+    },
+    "links": {
+      "repo": "https://github.com/alex-boni/Wei-Little",
+      "demo": null
+    },
+    "media": {
+      "thumbnail": "/assets/projects/wei-little/thumbnail.png",
+      "images": [
+        "/assets/projects/wei-little/screen-1.png",
+        "/assets/projects/wei-little/screen-2.png"
+      ]
+    },
+    "tags": ["academico", "escritorio", "java", "uml", "arquitectura-por-capas"]
+  },
+  {
+  "id": "parkit",
+  "title": "ParkIT",
+  "type": "web",
+  "timeframe": "2024",
+  "team_size": 6,
+  "role": "Desarrollador principal y responsable de despliegue",
+  "summary": "Aplicación web para localizar plazas de aparcamiento libres en tiempo real. Mapa interactivo con Leaflet, vistas y permisos por rol (particular, empresa, administrador), notificaciones y chat en tiempo real con WebSockets. Proyecto académico con entregas periódicas y despliegue en servidor de la UCM.",
+  "responsibilities": [
+    "Implementación de WebSockets para notificaciones en tiempo real y chat usuario–empresa",
+    "Configuración y despliegue de la aplicación en servidor Linux (UCM) dentro de contenedor Apache Guacamole",
+    "Apoyo técnico al equipo en diseño, integración y resolución de errores",
+    "Coordinación informal de integración de vistas con Thymeleaf y Bootstrap"
+  ],
+  "soft_skills": [
+    {
+      "skill": "Liderazgo técnico",
+      "xyz": "Guié a 5 compañeros en decisiones de diseño e integración, reduciendo bloqueos y acelerando las entregas del sprint."
+    },
+    {
+      "skill": "Trabajo en equipo",
+      "xyz": "Organicé sesiones de integración y revisión, manteniendo consistencia visual y técnica entre módulos."
+    },
+    {
+      "skill": "Comunicación efectiva",
+      "xyz": "Expliqué conceptos de WebSockets y despliegue en Linux al equipo, facilitando el aprendizaje colectivo y la autonomía."
+    },
+    {
+      "skill": "Adaptabilidad",
+      "xyz": "Aprendí Spring Boot y Thymeleaf desde cero durante el proyecto y los apliqué en producción en pocas semanas."
+    }
+  ],
+  "hard_skills": [
+    {
+      "skill": "Backend con Spring Boot",
+      "xyz": "Desarrollé controladores y servicios para la lógica de búsqueda y gestión de parkings, exponiendo endpoints REST."
+    },
+    {
+      "skill": "WebSockets",
+      "xyz": "Implementé canales de notificación y chat en tiempo real, mejorando la experiencia del usuario final."
+    },
+    {
+      "skill": "Modelado y persistencia",
+      "xyz": "Diseñé el esquema en H2 y lo integré con JPA/Hibernate, asegurando integridad y rendimiento en consultas."
+    },
+    {
+      "skill": "Frontend con Thymeleaf",
+      "xyz": "Construí vistas responsivas con Bootstrap y JavaScript, garantizando usabilidad en roles de usuario y empresa."
+    },
+    {
+      "skill": "Despliegue en Linux",
+      "xyz": "Automaticé build y despliegue en servidor remoto de la UCM usando contenedor Apache Guacamole."
+    }
+  ],
+  "technologies": {
+    "frontend": ["HTML5", "CSS3", "Bootstrap 4", "Thymeleaf", "JavaScript", "Leaflet"],
+    "backend": ["Spring Boot", "WebSockets", "JPA", "Hibernate"],
+    "database": ["H2"],
+    "devops": ["Linux", "Apache Guacamole"],
+    "tools": ["Git", "GitHub", "Postman"]
+  },
+  "links": {
+    "repo": "https://github.com/alex-boni/ParkIT",
+    "demo": null
+  },
+  "media": {
+    "thumbnail": "/assets/projects/parkit/thumbnail.png",
+    "images": [
+      "/assets/projects/parkit/screen-1.png",
+      "/assets/projects/parkit/screen-2.png"
+    ]
+  },
+  "tags": ["web", "spring-boot", "websockets", "leaflet", "thymeleaf", "real-time", "ucm"]
+},
+
+  {
+    "id": "template-web",
+    "title": "TÍTULO DEL PROYECTO WEB",
+    "type": "web",
+    "timeframe": "AAAA",
+    "team_size": 1,
+    "role": "Rol principal",
+    "summary": "Descripción breve del objetivo del proyecto, público/uso y resultado/impacto.",
+    "responsibilities": [
+      "Responsabilidad 1",
+      "Responsabilidad 2",
+      "Responsabilidad 3"
+    ],
+    "soft_skills": [
+      { "skill": "Comunicación", "xyz": "Hice X, medido por Y, que resultó en Z." },
+      { "skill": "Trabajo en equipo", "xyz": "Hice X, medido por Y, que resultó en Z." }
+    ],
+    "hard_skills": [
+      { "skill": "Arquitectura", "xyz": "Hice X, medido por Y, que resultó en Z." },
+      { "skill": "Performance", "xyz": "Hice X, medido por Y, que resultó en Z." }
+    ],
+    "technologies": {
+      "frontend": ["React", "Vite", "Tailwind CSS", "React Router"],
+      "backend": ["Node.js", "Express", "Spring Boot"],
+      "database": ["PostgreSQL", "MySQL", "H2"],
+      "devops": ["GitHub Actions", "Docker"],
+      "tools": ["Postman", "Jest", "ESLint", "Prettier"]
+    },
+    "links": {
+      "repo": "https://github.com/USER/REPO",
+      "demo": "https://demo-url.example.com"
+    },
+    "media": {
+      "thumbnail": "/assets/projects/template/thumbnail.png",
+      "images": []
+    },
+    "tags": ["web", "frontend", "backend"]
+  }
+]
+

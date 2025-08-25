@@ -1,36 +1,33 @@
 [
     {
         "id": "1",
-        "role": "Técnico Administrativo",
+        "role": "Fundador & Gestor",
         "company": "Transportes Bonilla",
         "start": "2021-07",
         "end": "present",
         "location": "Madrid, España",
-        "summary": "Gestión administrativa-contable y Logística.",
+        "summary": "Creación y gestión de una empresa de transporte y mensajería por carretera.",
         "achievements": [
-            "Desarrollo de informes analíticos para la toma de decisiones.",
-            "Gestión de la documentación y trámites administrativos.",
-            "Gestión de pagos y cobros.",
-            "Gestión de inventarios.",
-            "Control de costes y presupuestos.",
-            "Control del cumplimiento regulación Transporte de Mercancías por Carretera.",
-            "Optimización de procesos logísticos."
+            "Fundé la empresa, obteniendo la financiación inicial y aportando el certificado de transporte requerido para operar legalmente.",
+            "Gestioné la compra y puesta en marcha de una flota inicial de vehículos (camión de 8 toneladas y furgón de 3,5 toneladas) para servicios de mensajería y transporte por carretera.",
+            "Me encargué de la administración financiera, negociación con proveedores y control de costes para asegurar rentabilidad desde el primer año.",
+            "Coordiné la operativa diaria y el cumplimiento normativo en materia de transporte y logística.",
+            "Transformé una idea en un negocio familiar consolidado, ayudando a cumplir el sueño de tener una empresa propia de transporte."
         ]
     },
     {
         "id": "2",
         "role": "Técnico Administrativo",
-        "company": "Tayre - Maserati",
+        "company": "Tayre Automoción (Concesionario Oficial Maserati, Aston Martin, Morgan)",
         "start": "2020-06",
         "end": "2021-01",
         "location": "Madrid, España",
-        "summary": "Gestión administrativa.",
+        "summary": "Gestión administrativa en un concesionario de automoción de lujo, incluyendo atención al cliente, gestión documental, coordinación logística y análisis de ventas.",
         "achievements": [
-            "Gestión de la documentación y trámites administrativos.",
-            "Atención al cliente y gestión de incidencias.",
-            "Gestión de proveedores.",
-            "Elaboración de informes y análisis de ventas.",
-            "Coordinación con otros departamentos como ventas, postventa y taller."
+        "Gestioné documentación y trámites administrativos en un entorno de alta exigencia y atención premium.",
+        "Atendí incidencias y clientes de marcas de lujo (Maserati, Aston Martin, Morgan) con rapidez y calidad, manteniendo altos estándares de servicio.",
+        "Coordiné con los departamentos de ventas, postventa y taller para garantizar la satisfacción del cliente y la eficiencia operativa.",
+        "Elaboré informes y análisis de ventas que facilitaron la toma de decisiones comerciales y optimización del stock."
         ]
     }
 ]

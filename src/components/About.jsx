@@ -10,32 +10,34 @@ function About() {
           <img
             src={alex}
             alt="alex"
-            
             className="object-cover w-70 -my-5 lg:w-300 mask-radial-at-center mask-radial-from-60% lg:mask-radial-from-40% mask-b-from-70% mask-b-to-95%"
           />
-        <SocialNetworks />
+          <SocialNetworks />
         </div>
         <div>
-        <p className="text-justify">
-          Soy <strong>ingeniero de software</strong>, me apasiona el desarrollo
-          web y la creación de aplicaciones funcionales e intuitivas. Me
-          considero full-stack junior con experiencia en 
-          <strong> Node.js, Java, Spring-Boot, JavaScript y C++</strong>.
-          Actualmente, estoy ampliando mis conocimientos en React.js para
-          desarrollar PWAs. Por cierto, my portfolio esta desarrollando
-          completamente en <strong>React.js + Tailwind 4</strong>. También
-          estoy investigando sobre accesibilidad para garantizar la inclusión y
-          cumplimiento de las normativas vigentes.
-          <br />
-          Tengo unas bases sólidas en <strong>lógica, estructura de datos, algoritmia y patrones de diseño</strong>
-          , que son mis pilares. En mis ratos libres, suelo realizar deporte e
-          intentar resolver problemas de AdaByron.
-          <br />
-          No quiero alargarme mucho, si tenéis alguna pregunta, comentario y/o
-          sugerencia, adelante, soy un dev más como vosotros. Disfrutar del
-          portfolio.
-        </p>
-        <Stack />
+          <p className="text-justify">
+            Soy <strong>Ingeniero de Software</strong> apasionado por el
+            desarrollo web y la creación de aplicaciones funcionales e
+            intuitivas. Me considero full-stack junior, con experiencia en
+            <strong> Node.js, Java, Spring Boot, JavaScript y C++</strong>.
+            Actualmente estoy ampliando mis conocimientos en React.js para
+            desarrollar PWAs, y este portfolio está desarrollado
+            completamente en <strong>React.js + Tailwind CSS</strong>. También
+            investigo sobre accesibilidad web para garantizar la inclusión
+            y cumplimiento de las normativas vigentes.
+            <br />
+            Cuento con bases sólidas en{" "}
+            <strong>
+              lógica, estructuras de datos, algoritmia y patrones de diseño
+            </strong>
+            , que son mis pilares. En mis ratos libres disfruto del deporte y de
+            resolver problemas de AdaByron.
+            <br />
+            No quiero extenderme demasiado: si tienes alguna pregunta, comentario o
+            sugerencia, estaré encantado de hablar contigo. ¡Disfruta del
+            portfolio!.
+          </p>
+          <Stack />
         </div>
       </div>
     </section>

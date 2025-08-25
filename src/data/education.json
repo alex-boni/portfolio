@@ -1,31 +1,54 @@
 [
-    {
-        "id": "1",
-        "degree": "Grado Universitario en Ingeniería de Software",
-        "institution": "Universidad Complutense de Madrid",
-        "start": "2021-09",
-        "end": "present",
-        "logo": "https://www.ucm.es/themes/ucm24/media/img/logo.svg"
-    },
-    {
-        "id": "2",
-        "degree": "Grado Superior en Administración y Finanzas",
-        "institution": "IES Virgen de la Paz",
-        "start": "2018-09",
-        "end": "2020-06"
-    },
-    {
-        "id": "3",
-        "degree": "Grado Superior en Transporte y Logística",
-        "institution": "IES Joan Miró",
-        "start": "2016-09",
-        "end": "2018-06"
-    },
-    {
-        "id": "4",
-        "degree": "Bachillerato",
-        "institution": "IES Julio Palacios",
-        "start": "2014-09",
-        "end": "2016-06"
-    }
+  {
+    "id": "1",
+    "degree": "Grado Universitario en Ingeniería de Software",
+    "institution": "Universidad Complutense de Madrid",
+    "location": "Madrid, España",
+    "start": "2021-09",
+    "end": "present",
+    "logo": "https://www.ucm.es/themes/ucm24/media/img/logo.svg",
+    "highlights": [
+      "Asignaturas favoritas: Técnicas algorítmicas de IS, Estructuras de Datos, Gestión de Proyectos Software, Desarrollo Web, Sistemas Operativos, Bases de Datos",
+      "Proyectos relevantes: Wei-Little (Java, MySQL, Swing)",
+      "Matrículas de honor en Ingeniería Web e Ingeniería del Conocimiento (IA)"
+    ]
+  },
+  {
+    "id": "2",
+    "degree": "Grado Superior en Administración y Finanzas",
+    "institution": "IES Virgen de la Paz",
+    "location": "Madrid, España",
+    "start": "2018-09",
+    "end": "2020-06",
+    "highlights": [
+      "Asignaturas favoritas: Contabilidad, Fiscalidad, Análisis Financiero, Gestión de Recursos Humanos",
+      "Proyectos relevantes: Street Park (Plan de Empresa - Desarrollo de objetivos de negocio)",
+      "Matrícula de honor en Contabilidad"
+    ]
+  },
+  {
+    "id": "3",
+    "degree": "Grado Superior en Transporte y Logística",
+    "institution": "IES Joan Miró",
+    "location": "Madrid, España",
+    "start": "2016-09",
+    "end": "2018-06",
+    "highlights": [
+        "Asignaturas favoritas: Gestión de Almacenes, Gestión de Transporte, Comercio Internacional",
+        "Proyectos relevantes: Transporte Eficiente (Simulación de Rutas - Optimización de Rutas de Entrega)"
+    ]
+  },
+  {
+    "id": "4",
+    "degree": "Bachillerato de Ciencias",
+    "institution": "IES Julio Palacios",
+    "location": "Madrid, España",
+    "start": "2014-09",
+    "end": "2016-06",
+    "highlights": [
+        "Asignaturas favoritas: Matemáticas, Física, Contabilidad",
+        "Proyectos relevantes: Investigación sobre energías renovables",
+        "Matriculas de honor en Matemáticas y Física"
+    ]
+  }
 ]

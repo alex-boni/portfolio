@@ -6,12 +6,12 @@
         "date": "2025-08",
         "url": "https://www.linkedin.com/learning/certificates/6992cbdd2383e812e7834834b5e4dd88cd1a1b2e80eaef6e36afcc366b508f6d?u=283918193",
         "description": "Curso para principiantes y/o experimentados, que cubre los conceptos fundamentales para construir aplicaciones web en React. Creación de componentes, gestión del estado, manejo de eventos, trabajo con datos, integracion de librerías externas y despliegue de manera profesional.",
-        "opinion": "Este curso a sido clave para comprender las bases de React y cómo se estructuran las aplicaciones de forma eficiente.Ha sido tan completo, que al final del curso tiene un pequeño añadido relacionado con la gestión de versiones con GitHub y su correspondiente despliegue con GitHub Pages. Siento que ahora con esta base podré seguir profundizando en técnicas más avanzadas en React.",
+        "opinion": "Este curso ha sido clave para comprender las bases de React y cómo se estructuran las aplicaciones de forma eficiente.Ha sido tan completo, que al final del curso tiene un pequeño añadido relacionado con la gestión de versiones con GitHub y su correspondiente despliegue con GitHub Pages. Siento que ahora con esta base podré seguir profundizando en técnicas más avanzadas en React.",
         "puntos": [
             "✅Diferencias entre componentes funcionales (más modernas) y de clases.",
-            "✅Comunicación entre componentes padres e hijos y gestión de eventos desde cada uno de ellos.",
+            "✅Comunicación entre componentes padres e hijos y gestión de eventos.",
             "✅Manejo eficiente de listas.",
-            "✅Reducción de sobreetiquetado para mayor eficiencia.",
+            "✅Reducción de sobreetiquetado en el DOM.",
             "✅Qué son y qué uso tienen los hooks",
             "✅Hooks principales: useState, useEffect, useContext",
             "✅Uso de Context API para que los componentes compartan estado",
@@ -30,7 +30,7 @@
         "description": "Este curso explora las aplicaciones de la inteligencia artificial generativa en el desarrollo de software, cubriendo técnicas y herramientas clave. Dirigido por D. Pedro Antonio Gonzalez Calero dentro de los Cursos de Verano Complutense de San Lorenzo de El Escorial.",
         "opinion": "Este curso me ha proporcionado una comprensión profunda de cómo la IA generativa puede transformar el desarrollo de software. Los ejemplos prácticos y los estudios de caso fueron especialmente útiles.",
         "puntos": [
-            "✅Introducción a la inteligencia artificial generativa.",
+            "✅Conceptos básicos de inteligencia artificial generativa.",
             "✅Aplicaciones en la generación de código.",
             "✅Uso de modelos de lenguaje para la documentación.",
             "✅Integración de herramientas de IA en flujos de trabajo existentes."
@@ -47,10 +47,10 @@
         "description": "Este curso proporciona una introducción a la programación en C, centrándose en los tipos de datos y las estructuras.",
         "opinion": "Este curso me ha ayudado a comprender los fundamentos de la programación en C. La explicación de los tipos de datos y las estructuras fue clara y concisa.",
         "puntos": [
-            "✅Introducción a la programación en C.",
+            "✅Fundamentos de programación en C.",
             "✅Tipos de datos en C.",
             "✅Estructuras y uniones.",
-            "✅Manejo de memoria dinámica."
+            "✅Gestión de memoria dinámica."
         ],
         "image": "c-programing.png",
         "tags": ["C", "Programming", "Data Structures", "Memory Management"]
