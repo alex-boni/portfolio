@@ -21,7 +21,7 @@ export default function Education() {
     title: d.degree,
     subtitle: d.institution,
     description: null,
-    bullets: [],
+    bullets: d.highlights || [],
   }));
 
   return (
