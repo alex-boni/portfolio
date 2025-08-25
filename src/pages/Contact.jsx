@@ -226,7 +226,8 @@ export default function Contact() {
             <div className="md:col-span-2 flex flex-col items-center justify-center gap-4">
               <button
                 type="submit"
-                disabled={status === "sending"}
+                disabled={status === "idle"}
+                // disabled={status === "sending"} // Descomentar para habilitar el estado de envío
                 className="inline-flex items-center justify-center rounded-full px-6 py-3 font-medium
                   bg-gradient-to-r from-cyan-600 to-blue-700 hover:from-cyan-400 hover:to-blue-600
                   ring-1 ring-white/10 shadow-lg hover:shadow-2xl transition disabled:opacity-50"
@@ -234,6 +235,19 @@ export default function Contact() {
                 {status === "sending" ? "Enviando…" : "Enviar mensaje"}
               </button>
 
+              {status === "idle" && (
+                <span className="text-sm text-white/70">
+                  Proximamente disponible... Puedes contactarme mientras por{" "}
+                  <a
+                    className="text-cyan-300 hover:text-cyan-200"
+                    href="https://www.linkedin.com/in/alex-boni/"
+                  >
+                    LinkedIn
+                  </a>{" "}
+                  o enviarme un <button onClick={copiarAlPortapapeles} className="text-green-400 hover:text-gray-100">email😊</button>
+                </span>
+                
+              )}
               {status === "ok" && (
                 <span className="text-sm text-emerald-500">
                   ¡Gracias! He recibido tu mensaje y te responderé muy pronto.
