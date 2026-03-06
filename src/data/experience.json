@@ -1,6 +1,22 @@
 [
     {
         "id": "1",
+        "role": "Software Engineer",
+        "company": "ERI Bancaire",
+        "start": "2025-10",
+        "end": "present",
+        "location": "Madrid, España",
+        "summary": "Desarrollo de software para el sector bancario internacional",
+        "achievements": [
+            "Desarrollé un prototipo de aplicación interna, utilizando frameworks modernos como Vue.js y NestJS, buscando mejorar la eficiencia de un proceso interno específico y la experiencia de usuario.",
+            "Integré un LLM para automatizar tareas de generación de informes, lo que reduce el tiempo dedicado a tareas internas y mejora la precisión de los informes generados.",
+            "Contribuí a la documentación técnica del proyecto interno, compartiendo conocimientos y buenas prácticas para fomentar un ambiente de aprendizaje continuo.",
+            "Recibí feedback positivo por mi capacidad de adaptación y aprendizaje rápido, lo que me permitió integrarme eficazmente en el equipo y aportar valor desde el inicio de mi incorporación."
+
+        ]
+    },
+    {
+        "id": "2",
         "role": "Fundador & Gestor",
         "company": "Transportes Bonilla",
         "start": "2021-07",
@@ -16,7 +32,7 @@
         ]
     },
     {
-        "id": "2",
+        "id": "3",
         "role": "Técnico Administrativo",
         "company": "Tayre Automoción (Concesionario Oficial Maserati, Aston Martin, Morgan)",
         "start": "2020-06",

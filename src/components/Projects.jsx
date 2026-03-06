@@ -42,7 +42,7 @@ function Projects() {
             className="w-full lg:w-150 max-h-100 lg:h-full"
           />
 
-          <div className="flex flex-col p-4 leading-normal w-full text-justify font-light text-gray-300">
+          <div className="flex flex-col p-4 leading-normal w-full text-start font-light text-gray-300">
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-white text-center">
               Wei Little
             </h3>
@@ -180,7 +180,7 @@ function Projects() {
             className="w-full lg:w-150 max-h-100 lg:h-auto "
           />
 
-          <div className="flex flex-col p-4 leading-normal w-full text-justify font-light text-gray-300">
+          <div className="flex flex-col p-4 leading-normal w-full text-start font-light text-gray-300">
             <h3 className="mb-1 text-2xl font-bold tracking-tight text-white text-center">
               ParkIT
             </h3>

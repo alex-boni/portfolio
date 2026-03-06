@@ -25,11 +25,11 @@ function Portfolio() {
   return (
     <div>
       <About />
+      <Experience />
+      <Skills />
       <Projects />
       <Education />
-      <Experience />
       <Certificates />
-      <Skills />
     </div>
   );
 }

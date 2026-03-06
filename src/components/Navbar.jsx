@@ -39,11 +39,11 @@ export default function Navbar() {
             md:flex: muestra el menú como flex a partir del breakpoint md */}
         <ul className="hidden items-center gap-6 md:flex">
           <li><Link to="/?s=about">Sobre mí</Link></li>
+          <li><Link to="/?s=experience">Experiencia</Link></li>
+          <li><Link to="/?s=skills">Skills</Link></li>
           <li><Link to="/?s=projects">Proyectos</Link></li>
           <li><Link to="/?s=education">Educación</Link></li>
-          <li><Link to="/?s=experience">Experiencia</Link></li>
           <li><Link to="/?s=certificates">Certificaciones</Link></li>
-          <li><Link to="/?s=skills">Skills</Link></li>
           <li><Link to="/contact">Contacto</Link></li>
         </ul>
 
@@ -102,11 +102,11 @@ export default function Navbar() {
               px-3 py-2: padding
               hover:bg-black/5: fondo sutil al pasar el ratón */}
           <li><Link to="/?s=about" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Sobre mí</Link></li>
+          <li><Link to="/?s=experience" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Experiencia</Link></li>
+          <li><Link to="/?s=skills" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Skills</Link></li>
           <li><Link to="/?s=projects" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Proyectos</Link></li>
           <li><Link to="/?s=education" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Educación</Link></li>
-          <li><Link to="/?s=experience" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Experiencia</Link></li>
           <li><Link to="/?s=certificates" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Certificaciones</Link></li>
-          <li><Link to="/?s=skills" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>Skills</Link></li>
           <li><Link to="/contact" className="block rounded px-3 py-2 hover:bg-black/5 " onClick={() => setOpen(false)}>🫱​Contáctame🫲​</Link></li>
         </ul>
       )}

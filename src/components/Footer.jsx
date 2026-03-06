@@ -5,7 +5,7 @@ function Footer() {
     <>
       <footer className="bg-gray-900 p-8 ">
         <p className=" text-white/70">
-          &copy; 2025 Alex Guillermo Bonilla Taco
+          &copy; 2026 Alex Guillermo Bonilla Taco
         </p>
         <p className="mb-6 text-white/70">
           Este portfolio está desarrollado con React + Tailwind CSS.{" "}

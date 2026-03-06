@@ -79,7 +79,7 @@ export default function Contact() {
         <header className="text-center">
           <h1 className="text-4xl font-bold">Contactamos? 👋</h1>
           <p className="mt-2 text-white/70 max-w-2xl mx-auto">
-            ¿Eres <span className="text-cyan-500">reclutador</span>,{" "}
+            ¿Eres otro {" "}
             <span className="text-cyan-500">dev</span> o tienes una idea
             interesante? Me encantará leer tu mensaje.
           </p>

@@ -51,15 +51,15 @@
   {
     "id": 8,
     "skill": "Proactividad",
-    "impacto": "En la construcción de mi portfolio personal.",
-    "accion": "Fui más allá de lo básico: añadí animaciones y carruseles dentro de cards con buen UX.",
-    "resultado": "Creé un portfolio diferencial que refleja capacidades técnicas y sentido estético."
+    "impacto": "En la construcción del proyecto interno de ERI Bancaire.",
+    "accion": "Fui más allá de lo básico y mínimos de los requisitos.",
+    "resultado": "Creé un proyecto diferencial que superó las expectativas iniciales y la calidad del entregable."
   },
   {
     "id": 9,
     "skill": "Resiliencia",
-    "impacto": "Compatibilizando universidad, proyectos y trabajo",
-    "accion": "Priorizaba tareas y mantenía una actitud positiva y el foco en mis objetivos.",
-    "resultado": "Logré adaptarme a situaciones adversas y cumplir poco a poco los objetivos que me iba marcando."
+    "impacto": "Compatibilizando universidad, proyectos y trabajo.",
+    "accion": "Priorizo tareas y mantengo una actitud positiva y el foco en mis objetivos.",
+    "resultado": "Logro adaptarme a situaciones adversas y cumplir poco a poco los objetivos que me voy marcando."
   }
 ]

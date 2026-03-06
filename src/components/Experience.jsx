@@ -16,7 +16,7 @@ export default function Experience() {
   // Normalización específica de Experiencia
   const items = experienceData.map((d, i) => ({
     key: d.id ?? `exp-${i}`,
-    nodeLogo: d.logo ?? null, // añade logo de empresa si lo tienes
+    nodeLogo: d.logo ?? null,
     metaTop: formatSpan(d.start, d.end),
     title: `${d.role} · ${d.company}`,
     subtitle: d.location,
